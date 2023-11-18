@@ -1,0 +1,52 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+font-family: arial;
+}
+header{
+		display: flex;
+        margin: 0;
+		float: left;
+	}
+	nav ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	nav ul a{
+		box-sizing: border-box;
+		color:white;
+		
+		display: block;
+		width: 170px;
+		padding: 8px 10px;
+		text-decoration: none;
+	}
+	nav ul ul{
+		height: 0px;
+		overflow: hidden;
+	}
+	nav ul li:hover ul{
+		height: auto;
+	}
+	.menu{
+		
+		margin top: 15px;
+		display: flex;
+		padding: 6px;
+		background-color: blue;
+	}
+	.diseño{
+      margin:0 265px
+  
+	}
+	#inicio{
+		padding:10px;
+		margin: 15px;
+	}
+	#titulo{
+		padding: 20px;
+		text-align: center;
+	}
